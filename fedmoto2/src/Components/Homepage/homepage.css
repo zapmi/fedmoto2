@@ -44,9 +44,10 @@
     text-align: center;
 }
 
-.fedMotto {
+.fedMoto {
     font-family: proxima;
     font-size: 1.4em;
+    margin-bottom: 25px;
 }
 
 #bikesPic, #igPic, #servicePic, #aboutFedPic {
@@ -57,7 +58,7 @@
 }
 
 hr {
-    padding-bottom: 50px;
+    margin: 0px 25px 50px 25px;
 }
 
 
