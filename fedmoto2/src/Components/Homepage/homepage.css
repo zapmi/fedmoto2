@@ -1,0 +1,64 @@
+.col-sm-10, .col-sm-8 {
+    margin-left: 260px;
+    display: block; 
+}
+
+.wintStorage {
+    background-color: black;
+    /* opacity: 75%; */
+    border: none;
+    color: ghostwhite;
+    font-family: Helvetica;
+    font-size: 13px;
+    font-weight: 560;
+    /* letter-spacing: 0.1em; */
+    height: 61px;
+    margin-bottom: 30px;
+    margin-left: 470px;
+    margin-top: 65px;
+    padding: 20px;
+    /* padding-bottom: 60px; */
+    /* position: fixed; */
+    text-align: center;
+    width: 432px;
+    /* z-index: 999; */
+  }
+
+#trashHand {
+    /* margin-top: 252px; */
+    margin-left: 30px;
+    width: 92%;
+    max-width: 83.5%;
+    height: auto;
+    /* padding: 123px 0 0 30px; */
+}
+
+.bigSuziButton {
+    background-color: #e4b94d;
+    border-color: #e4b94d;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    margin: 35px 0 35px 517px;
+    padding: 12px 23px;
+    text-align: center;
+}
+
+.fedMotto {
+    font-family: proxima;
+    font-size: 1.4em;
+}
+
+#bikesPic, #igPic, #servicePic, #aboutFedPic {
+    width: 638px;
+    height: auto;
+    padding: 17px;
+    
+}
+
+hr {
+    padding-bottom: 50px;
+}
+
+
+  

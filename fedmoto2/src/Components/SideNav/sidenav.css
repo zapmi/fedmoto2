@@ -1,0 +1,43 @@
+.col-sm-2 {
+    position: fixed;
+}
+
+#fedlogo {
+    margin-left: 40px;
+    margin-top: 52px;
+    padding: 13px 0 29px 0;
+    height: auto;
+    width: 70px;
+}
+
+.nav-link {
+    color: #808080;
+    font-family: futura;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    padding: 2px 0 1px;
+}
+
+.nav-link-bottom {
+    color: rgba(17, 17, 17, .4);
+    display: block;   
+    font-family: futura;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    padding: 2px 0 2px 0;
+    
+}
+
+.nav-item, .nav-item-logo {
+    list-style-type: none;
+}
+
+#topSideNav, #bottomSideNav {
+    padding-inline-start: 32px;
+}
+
+#bottomSideNav {
+    padding-bottom: 20px; 
+   
+}
