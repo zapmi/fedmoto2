@@ -18,22 +18,22 @@ class SideNav extends React.Component {
                             <Link to='bikes' class="nav-link m-2 menu-item">BIKES</Link><br />
                         </li>
                         <li class="nav-item">
-                            <Link to='public' class="nav-link m-2 menu-item">BUILD INQUIRY</Link><br />
+                            <Link to='buildInquiry' class="nav-link m-2 menu-item">BUILD INQUIRY</Link><br />
                         </li>
                         <li class="nav-item">
-                            <Link to='private' class="nav-link m-2 menu-item">SERVICE APPOINTMENT</Link><br />
+                            <Link to='serviceAppointment' class="nav-link m-2 menu-item">SERVICE APPOINTMENT</Link><br />
                         </li>
                         <li class="nav-item">
-                            <Link to='/' class="nav-link m-2 menu-item">SHOP</Link><br />
+                            <Link to='/shop' class="nav-link m-2 menu-item">SHOP</Link><br />
                         </li>
                         <li class="nav-item">
-                            <Link to='/' class="nav-link m-2 menu-item">EVENTS</Link><br />
+                            <Link to='/events' class="nav-link m-2 menu-item">EVENTS</Link><br />
                         </li>
                         <li class="nav-item">
-                            <Link to='/' class="nav-link m-2 menu-item">CAREERS</Link><br />
+                            <Link to='/careers' class="nav-link m-2 menu-item">CAREERS</Link><br />
                         </li>
                         <li class="nav-item">
-                            <Link to='/' class="nav-link m-2 menu-item">SIGN IN</Link><br />
+                            <Link to='/signIn' class="nav-link m-2 menu-item">SIGN IN</Link><br />
                         </li>
 
                         {/* <Link to='bikes'>Bikes</Link><br /> */}

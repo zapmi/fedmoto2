@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./homepage.css";
 import trashHand from "../Images/trashHand.jpg";
 import aboutFed from "../Images/aboutFed.jpg";
@@ -30,13 +31,13 @@ const HomePage = () => {
                     inspired and ridden from the city streets to the mountain peaks. Based
                     in Chicago, Illinois.
         </div>
-                <hr>`</hr>
+                <hr></hr>
                 <hr></hr>
             </div>
 
 
             <div class="col-sm-8">
-                <img src={bikes} class="img-fluid" id="bikesPic" alt="bikes" />
+            <Link to='/bikes' ><img src={bikes} class="img-fluid" id="bikesPic" alt="bikes" /></Link>
                 <img src={ig} class="img-fluid" id="igPic" alt="ig" />
                 <img src={service} class="img-fluid" id="servicePic" alt="service" />
                 <img src={aboutFed} class="img-fluid" id="aboutFedPic" alt="about" />
