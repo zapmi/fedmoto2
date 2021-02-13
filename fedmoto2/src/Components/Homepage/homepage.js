@@ -37,9 +37,9 @@ const HomePage = () => {
 
 
             <div class="col-sm-8">
-            <Link to='/bikes' ><img src={bikes} class="img-fluid" id="bikesPic" alt="bikes" /></Link>
+                <Link to='/bikes' ><img src={bikes} class="img-fluid" id="bikesPic" alt="bikes" /></Link>
                 <img src={ig} class="img-fluid" id="igPic" alt="ig" />
-                <img src={service} class="img-fluid" id="servicePic" alt="service" />
+                <Link to='/serviceAppointment' ><img src={service} class="img-fluid" id="servicePic" alt="service" /></Link>
                 <img src={aboutFed} class="img-fluid" id="aboutFedPic" alt="about" />
             </div>
         </div>
